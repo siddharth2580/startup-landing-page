@@ -1,0 +1,238 @@
+:root {
+  --yellow: #ffb200;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* ---------- Sticky Navbar ---------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow);
+  padding: 10px 6%;
+}
+
+.logo {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 6% 60px;
+}
+
+/* ---------- Intro ---------- */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 0 40px;
+}
+
+.intro-text {
+  flex: 1 1 60%;
+}
+
+.intro-text h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.intro-text p {
+  font-size: 11px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 460px;
+}
+
+.intro-image {
+  flex: 0 1 280px;
+}
+
+.intro-image img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  background-color: var(--yellow);
+  color: var(--black);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* ---------- Contact ---------- */
+.contact {
+  padding-top: 20px;
+}
+
+.contact h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--yellow);
+  margin-bottom: 24px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--yellow);
+  border-radius: 30px;
+  padding: 10px 16px;
+  font-family: inherit;
+  font-size: 11px;
+  color: var(--yellow);
+}
+
+.contact input::placeholder {
+  color: var(--yellow);
+  opacity: 1;
+}
+
+/* No blue outline on focus */
+.contact input:focus {
+  outline: none;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row input {
+  flex: 1;
+}
+
+.submit-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* ---------- Table ---------- */
+.table-section {
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+  font-size: 11px;
+}
+
+thead th {
+  text-align: left;
+  font-weight: 500;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--yellow);
+}
+
+th:first-child,
+td:first-child {
+  width: 42px;
+  text-align: center;
+  border-right: 1px solid var(--yellow);
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 36%;
+  border-right: 1px solid var(--yellow);
+}
+
+tbody td {
+  padding: 6px 14px;
+}
+
+tbody tr:first-child td {
+  padding-top: 18px;
+}
+
+tbody tr:last-child td {
+  padding-bottom: 18px;
+}
+
+tfoot td {
+  background-color: var(--yellow);
+  color: var(--black);
+  padding: 10px 14px;
+  border-color: var(--black);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .nav-links {
+    gap: 12px;
+  }
+}
