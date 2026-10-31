@@ -4,7 +4,7 @@ A responsive startup landing page built with **HTML** and **CSS**, replicating a
 
 ## Live Demo
 
-[View the deployed site](https://your_username.github.io/startup-landing-page/)
+[View the deployed site](https://siddharth2580.github.io/startup-landing-page/)
 
 ## Features
 
