@@ -1,51 +1,113 @@
-# Startup Landing Page
+# ✦ STARTUP LANDING PAGE
 
-A responsive startup landing page built with **HTML** and **CSS**, replicating a provided Figma design. It uses the **Montserrat** font from Google Fonts.
+### Modern UI · Responsive Design · Pixel-Inspired Development
 
-## Live Demo
+<p align="center">
+  <a href="https://siddharth2580.github.io/startup-landing-page/">
+    <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-Visit_Website-8B5CF6?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/HTML5-STRUCTURE-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-STYLING-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-[View the deployed site](https://siddharth2580.github.io/startup-landing-page/)
+---
 
-## Features
+## 🚀 About The Project
 
-- **Sticky navbar**: the logo sits on the left and the navigation links on the right, and the bar stays visible while scrolling.
-- **Intro section**: a heading, placeholder paragraph and a Login button on the left, with an image on the right.
-- **Contact Us form**: custom pill-shaped input fields with the default blue focus outline removed.
-- **Table section**: a startup table with a header, body rows and a footer built with the `tfoot` tag.
-- **Responsive layout**: the layout adapts to smaller screens.
+**Startup Landing Page** is a modern, responsive web interface developed using HTML5 and CSS3, inspired by a provided Figma design.
 
-## Tech Stack
+The project focuses on translating a visual design concept into a functional web experience, combining clean layouts, structured content, and intuitive user interface elements.
 
-- HTML5
-- CSS3 (Flexbox)
-- Google Fonts (Montserrat)
+Featuring a minimalist black background with vibrant yellow accents, the landing page delivers a distinctive visual identity while maintaining usability across different screen sizes.
 
-## Project Structure
+## ✨ Key Features
 
+- **Sticky Navigation Bar** — A fixed-position navigation experience with the brand logo on the left and navigation links aligned to the right.
+- **Hero / Intro Section** — A structured introduction featuring a headline, descriptive content, a Login button, and a complementary visual.
+- **Contact Us Form** — Custom-designed pill-shaped input fields with refined focus styling.
+- **Structured Data Table** — A semantic HTML table featuring dedicated header, body, and footer sections using the `tfoot` element.
+- **Responsive Interface** — Adaptive layouts designed to provide a consistent experience across desktop and smaller screens.
+- **Minimalist Visual Design** — A bold black-and-yellow color scheme that creates a clean and recognizable visual identity.
+
+## ⚙️ Technology Stack
+
+| Technology | Implementation |
+|---|---|
+| HTML5 | Semantic markup and page structure |
+| CSS3 | Styling and visual design |
+| Flexbox | Responsive layout and alignment |
+| Google Fonts | Montserrat typography |
+| Figma | Design reference |
+
+## 🏗️ Project Structure
+
+```text
+STARTUP-LANDING-PAGE/
+│
+├── index.html       # Main webpage structure
+│
+├── style.css        # Styling and responsive layouts
+│
+├── bezos.png        # Hero section image asset
+│
+└── README.md        # Project documentation
 ```
-startup-landing-page/
-├── index.html
-├── style.css
-├── bezos.png
-└── README.md
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/siddharth2580/startup-landing-page.git
 ```
 
-## Getting Started
+**2. Navigate to the project directory**
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/siddharth2580/startup-landing-page
-   ```
-2. Open the project folder.
-3. Open `index.html` in your browser.
+```bash
+cd startup-landing-page
+```
 
-No build tools or dependencies are required.
+**3. Launch the application**
 
-## Design
+Open `index.html` in your preferred web browser.
 
-The design follows the Figma file provided with the project brief, with a black background and a yellow (`#FFB200`) accent colour.
+No additional dependencies, package installations, or build tools are required.
 
-## Author
+## 🌐 Live Demo
 
-**Your Name**
-GitHub: [siddharth2580](https://github.com/siddharth2580)
+Explore the deployed project:
+
+**[View Startup Landing Page →](https://siddharth2580.github.io/startup-landing-page/)**
+
+<sub>Deployed using GitHub Pages.</sub>
+
+## 🎨 Design & UI Approach
+
+The interface follows the visual direction of the original Figma design provided in the project brief.
+
+**Design Highlights:**
+- Background: Deep Black
+- Accent Color: Yellow (`#FFB200`)
+- Typography: Montserrat
+- Layout: Clean, structured, and responsive
+- Styling: Minimalist with clear visual hierarchy
+
+## 👨‍💻 Author
+
+**Siddharth**
+
+Frontend Developer · UI Design · Web Development
+
+- **GitHub:** [@siddharth2580](https://github.com/siddharth2580)
+
+---
+
+<p align="center">
+  <strong>✦ STARTUP LANDING PAGE ✦</strong>
+  <br/>
+  <sub>Turning design concepts into responsive web experiences.</sub>
+  <br/><br/>
+  © 2026 Siddharth. All Rights Reserved.
+</p>
